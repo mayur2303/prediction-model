@@ -12,6 +12,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 WORKDIR /usr/app/src
+RUN chmod 775 /usr/app/src/data/predictions.csv
 EXPOSE 5000
 
 CMD ["python3", "main.py", "--host=0.0.0.0"]
