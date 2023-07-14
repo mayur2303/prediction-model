@@ -5,7 +5,7 @@ env:
   OPENSHIFT_TOKEN: ${{ secrets.OPENSHIFT_TOKEN }}
 
   OPENSHIFT_NAMESPACE: ""
-  APP_NAME: "d-bank-ai"
+  APP_NAME: "prediction-model"
   APP_PORT: "6000"
 
   IMAGE_REGISTRY: ${{ secrets.IMAGE_REGISTRY }}
