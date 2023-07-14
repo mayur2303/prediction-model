@@ -51,4 +51,4 @@ if __name__ == '__main__':
     # out_df = predict_model(train_X, train_y, test_X, cust_dict)
     # out_df.to_csv(os.getcwd() + "/data/predictions.csv", index=False)
     # print("Model Completed = ", datetime.now())
-    app.run()
+    app.run(host='0.0.0.0')
