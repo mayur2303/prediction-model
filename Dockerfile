@@ -12,6 +12,6 @@ RUN pip install -r requirements.txt
 COPY . .
 
 WORKDIR /usr/app/src
-EXPOSE 6000
+EXPOSE 5000
 
 CMD ["python3", "main.py", "--host=0.0.0.0"]
