@@ -6,7 +6,7 @@ env:
 
   OPENSHIFT_NAMESPACE: ""
   APP_NAME: "prediction-model"
-  APP_PORT: "6000"
+  APP_PORT: "5000"
 
   IMAGE_REGISTRY: ${{ secrets.IMAGE_REGISTRY }}
   IMAGE_REGISTRY_USER: ${{ secrets.IMAGE_REGISTRY_USER }}
